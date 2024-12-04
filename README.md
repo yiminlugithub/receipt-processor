@@ -6,7 +6,7 @@ The Dockerfile will take the pre built jar file and start the API.
 
 #Commands used:
 
-mvn clean install (build jar)
+mvn clean install (build jar) I have included the jar file under target/ with the assumption that java and maven is not installed
 
 docker build -t receipt-processor . (builds docker image)
 
